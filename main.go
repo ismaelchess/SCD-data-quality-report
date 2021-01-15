@@ -3,8 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hola")
+	fmt.Println("Main")
 }
+
 func init() {
 	fmt.Println("Init")
 }
